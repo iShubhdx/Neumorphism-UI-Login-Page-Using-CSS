@@ -1,0 +1,70 @@
+*{
+	margin: 0; padding: 0;
+	font-family: calibri;
+	box-sizing: border-box;
+	outline: none!important;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(../fonts/Amsterdam.ttf);
+}
+body{
+	background-color: #55b9f3;
+}
+.box{
+	border-radius: 15px;
+	max-width: 500px;
+	min-width: 200px;
+	background: transparent!important;
+	/*border: 2px solid red;*/
+
+	box-shadow: 2px 2px 7px  rgba(0,0,0,0.3),
+				-2px -2px 7px rgba(255,255,255,0.3)!important;
+}
+.n-text{
+	color: #0F84CA;
+	text-decoration: none!important;
+	text-shadow: 2px 2px 2px rgba(16,147,224,0.3),
+				-2px -2px 2px rgba(255,255,255,0.1);
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: #0F84CA!important;
+ }
+.form-control{
+	background: transparent;;
+	box-shadow: inset 2px 2px 2px rgba(16,147,224,0.3),
+				inset -2px -2px 2px rgba(255,255,255,0.1);
+	border-radius: 22px;
+	color: #0F84CA!important;
+}
+.form-control::placeholder{
+	color: #0F84CA!important;
+}
+.form-control:focus{
+	background-color: transparent!important;
+	box-shadow: inset 2px 2px 2px rgba(16,147,224,0.3),
+				inset -2px -2px 2px rgba(255,255,255,0.1);
+}
+.btn{
+	color: #0F84CA!important;
+	box-shadow: 2px 2px 2px rgba(16,147,224,0.3),
+				-2px -2px 2px rgba(255,255,255,0.1)!important;
+}
+.btn:active{
+	box-shadow: inset 2px 2px 2px rgba(16,147,224,0.3),
+				inset -2px -2px 2px rgba(255,255,255,0.1)!important;
+}
+.btn:focus{
+	border:0;
+}
+.custom-control-input:focus, .custom-control-label::before{
+  box-shadow:none !important;
+}
+.sign{
+	font-family: myFirstFont;
+	color: var(--text-color)!important;
+	font-size: 15px;
+	opacity: 0.7;
+	color: #0F84CA!important;
+}
